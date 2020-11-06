@@ -22,7 +22,7 @@ from sklearn.model_selection import train_test_split, RandomizedSearchCV
 # Произведена оценка различных моделей
 
        | LinearRegr    | Are           | Cool  |
-       | --------------|:-------------:| -----:|
+------ | --------------|:-------------:| -----:|
 Quality| 2794.5      | right-aligned | $1600 |
        | 0.011      | centered      |   $12 |
        | 32.2 | are neat      |    $1 |
