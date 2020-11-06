@@ -21,8 +21,8 @@ from sklearn.model_selection import train_test_split, RandomizedSearchCV
 
 # Произведена оценка различных моделей
 
-       | LinearRegr    | Are           | Cool  |
------- | --------------|:-------------:| -----:|
-Quality| 2794.5      | right-aligned | $1600 |
-       | 0.011      | centered      |   $12 |
-       | 32.2 | are neat      |    $1 |
+Property   | LinearRegr    | DecisionTree  | RandomForest  | CatBoost  | LightGBM |
+---------- | -------------:|--------------:| -------------:| ---------:| --------:|
+Quality    |2794.5         |2069.80        |1758.5         |1646       |1631.9    |
+Pred_speed |0.011          |236            |0.007          |0.007      |5         |
+Fit_speed  |32.2           |8.74           |349            |3852       |358       |
